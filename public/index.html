@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Isaiah Deppong - Password Generator</title>
+        <link rel="stylesheet" href="/style.css" />
+    </head>
+    <body>
+        <p>Options:</p>
+
+            <input type="checkbox" name="uppercase" id="uppercase"/>
+            <label for="uppercase">Uppercase</label>
+            <br>
+            <input type="checkbox" name="numbers" id="numbers"/>
+            <label for="Numbers">Numbers</label>
+            <br> 
+            <input type="checkbox" name="symbols" id="symbols"/>
+            <label for="symbols">Symbols</label>
+            <br>
+            <input type="number" name="passlen" id="passlen" min="5" max="16"/>
+            <label for="passlen">Length</label>
+            <br>
+            <button id="generate">Generate</button>
+
+        <p id="password">Password</p>
+
+        <script src="/script.js"></script>
+    </body>
+</html>
